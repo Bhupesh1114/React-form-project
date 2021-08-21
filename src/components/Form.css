@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(40, 37, 56);
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container{
+    background-color: rgb(93, 86, 134);
+    padding: 50px 40px;
+    border-radius: 5px;
+}
+
+.form-container input{
+width: 400px;
+padding: 15px 0px;
+font-size: 20px;
+background-color:rgb(93, 86, 134) ;
+border: 0;
+border-bottom: 2px solid #fff ;
+color: #fff;
+}
+
+.form-container input:focus{
+    outline: none;
+}
+
+.form-item{
+    margin-bottom: 20px;
+}
+
+.form-container button{
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+    background-color:rgb(94, 140, 146);
+    border: 0;
+    border-radius: 10px;
+    transition: transform 0.1s ease-in-out;
+}
+
+
+.form-container button:hover{
+    background-color:rgb(117, 162, 167);
+}
+
+.form-container button:active{
+    transform: scale(0.95);
+}
+
+.form-container .success{
+    color: #fff;
+    background-color: rgb(94, 140, 146);
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.form-container span{
+    color: #fff;
+    opacity: 0.5;
+}
+
+.form-item h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container p{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-container p a{
+    color:powderblue;
+}
